@@ -1,0 +1,1 @@
+function e(n,t){const a=n.replace(/^titration\.interval\./,"");return t.intervals[a]??n}function l(n,t){return t.basalRules[n]??n}function r(n,t){return t.mealRules[n]??n}function s(n,t){return n===null?"—":`${n>0?"+":""}${n} ${t.changeUSuffix}`}export{l as b,s as f,e as i,r as m};
